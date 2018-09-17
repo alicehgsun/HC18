@@ -1,0 +1,25 @@
+body {
+  line-height: 1.4;
+  max-width: 400px;
+  font-size: 110%;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+}
+
+#text-input {
+  height:100px;
+  width:400px;
+  font-size: 80%;
+}
+
+p{font-family: sans-serif;
+
+}
+
+#display {
+  color: white;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  box-decoration-break: clone;
+}
