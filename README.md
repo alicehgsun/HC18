@@ -3,3 +3,5 @@ Hello, Computer: Unconventional Uses of Voice Technology
 
 1. [Week 1: Non-speech Input to Speech Synthesis](https://alicehgsun.github.io/HC18/week1/)
 <br>Assignment 1 that changes the reading speed depends on the number of words in the sentence (smaller or bigger than 5).
+2. [Week 2: Voice Input and Snake Game](https://alicehgsun.github.io/HC18/week2/)
+<br>Assignment 2 that takes voice input from a person to control in snake game.
