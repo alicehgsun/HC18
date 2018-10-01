@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a799dcaf-e745-429f-8483-4b8709432c26",
+    "data": [
+      {
+        "text": "right",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538377587
+  },
+  {
+    "id": "df62bc98-1f2c-4486-85b7-5a21085f1d90",
+    "data": [
+      {
+        "text": "how about ",
+        "userDefined": false
+      },
+      {
+        "text": "right",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538377587
+  },
+  {
+    "id": "976eacb9-1e2b-4220-bb88-241fb035cf1c",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "right",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538377587
+  },
+  {
+    "id": "60ec8820-c09f-4d50-ac8b-7ba55143cc63",
+    "data": [
+      {
+        "text": "go ",
+        "userDefined": false
+      },
+      {
+        "text": "right",
+        "alias": "direction",
+        "meta": "@direction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538377587
+  },
+  {
+    "id": "3e867e17-61cd-49bd-b098-52a30b69344b",
+    "data": [
+      {
+        "text": "right please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538377587
+  }
+]

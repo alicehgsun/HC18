@@ -1,0 +1,59 @@
+{
+  "id": "e0055c60-67d2-4d14-b3b6-895a8bc7b2a1",
+  "parentId": "f2772b4b-e0e5-4c83-bce6-8f0c69fd0b25",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - right - yes",
+  "auto": true,
+  "contexts": [
+    "adventure-right-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "adventure-right-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d74d88a1-988f-43c2-846a-198d2fd63140",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many numbers would you like to buy?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#adventure-followup.name gained $number of flowers. The lady was pleased and left."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "As the sun goes down, you\u0027re looking for a place to stay. #adventure-followup.name found a yellow house and a red house. Which one would you like to go in?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538415108,
+  "fallbackIntent": false,
+  "events": []
+}

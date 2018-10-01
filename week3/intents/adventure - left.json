@@ -1,0 +1,48 @@
+{
+  "id": "e61f35b2-8984-41e9-9a0f-824e69317b9e",
+  "parentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - left",
+  "auto": true,
+  "contexts": [
+    "adventure-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "adventure.adventure-custom",
+      "affectedContexts": [
+        {
+          "name": "adventure-left-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "792b3eda-db04-42df-983f-5e5ea90bd136",
+          "required": false,
+          "dataType": "@direction",
+          "name": "direction",
+          "value": "$direction",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#adventure-followup.name walked a bit through the $direction path, and encountered a dark forest. You felt hungry and found bananas, mushrooms, insects and a fish. Which one would you like to eat?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538410942,
+  "fallbackIntent": false,
+  "events": []
+}

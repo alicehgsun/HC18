@@ -1,0 +1,38 @@
+{
+  "id": "11cb162b-9719-488d-8470-cfb418de6a08",
+  "parentId": "f2772b4b-e0e5-4c83-bce6-8f0c69fd0b25",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - right - no",
+  "auto": true,
+  "contexts": [
+    "adventure-right-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "adventure.adventure-custom.adventure-right-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The lady became furious and turned into a wailing spirit. She quickly approached and took #adventure-followup.name\u0027s soul away."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#adventure-followup.name\u0027s #adventure-followup.adventure is over!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538411026,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "092bd34b-9790-4359-83fb-816b3814fa39",
+    "data": [
+      {
+        "text": "let\u0027s go to the ",
+        "userDefined": false
+      },
+      {
+        "text": "trip",
+        "alias": "adventure",
+        "meta": "@adventure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538376503
+  },
+  {
+    "id": "a7feae68-d8f0-4320-9fca-9363d7c8d3b1",
+    "data": [
+      {
+        "text": "adventure",
+        "alias": "adventure",
+        "meta": "@adventure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538376503
+  },
+  {
+    "id": "1442631d-e60b-4f06-a498-d09e552a7165",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "adventure",
+        "alias": "adventure",
+        "meta": "@adventure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538376503
+  },
+  {
+    "id": "66a133e5-bf72-434e-a3d6-b59e3c891343",
+    "data": [
+      {
+        "text": "begin the ",
+        "userDefined": false
+      },
+      {
+        "text": "journey",
+        "alias": "adventure",
+        "meta": "@adventure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538376503
+  },
+  {
+    "id": "93650202-1c17-477d-bb71-8595c366debb",
+    "data": [
+      {
+        "text": "start ",
+        "userDefined": false
+      },
+      {
+        "text": "adventure",
+        "alias": "adventure",
+        "meta": "@adventure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538376503
+  }
+]

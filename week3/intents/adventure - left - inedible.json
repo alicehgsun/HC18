@@ -1,0 +1,47 @@
+{
+  "id": "a2f88173-eba4-4c6e-8730-aa6001105483",
+  "parentId": "e61f35b2-8984-41e9-9a0f-824e69317b9e",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - left - inedible",
+  "auto": true,
+  "contexts": [
+    "adventure-left-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "adventure.adventure-custom.adventure-left-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fa7cc914-2f83-4e07-a946-6f650d8d8e46",
+          "required": false,
+          "dataType": "@inedible",
+          "name": "inedible",
+          "value": "$inedible",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh no! Seems like the $inedible you ate had poison. #adventure-followup.name\u0027s vision got blurred and faded out."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#adventure-followup.name\u0027s adventure is over!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538412309,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "8eb36f9d-daa6-4005-b9fa-75a9a90b65ca",
+  "parentId": "22429472-96f3-4c8e-b648-5912199f46ee",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - left - edible - outside",
+  "auto": true,
+  "contexts": [
+    "adventure-left-edible-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "adventure.adventure-left.adventure-left-edible.adventure-left-edible-outside",
+      "affectedContexts": [
+        {
+          "name": "adventure-left-edible-outside-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#adventure-followup.name chose not to go into the suspicious cave. The #adventure-followup.adventure continued, and temperature dropped down after the sun went down. You were lost and tired."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#adventure-followup.name\u0027s adventure is over!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538414436,
+  "fallbackIntent": false,
+  "events": []
+}

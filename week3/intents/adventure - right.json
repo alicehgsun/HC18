@@ -1,0 +1,48 @@
+{
+  "id": "f2772b4b-e0e5-4c83-bce6-8f0c69fd0b25",
+  "parentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - right",
+  "auto": true,
+  "contexts": [
+    "adventure-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "adventure.adventure-custom",
+      "affectedContexts": [
+        {
+          "name": "adventure-right-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "71d9e69d-d42a-4c60-a241-49f894cecdbd",
+          "required": false,
+          "dataType": "@direction",
+          "name": "direction",
+          "value": "$direction",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#adventure-followup.name walked a bit through the $direction path, and encountered a busy town. A lady passing by asks \"#adventure-followup.name, would you like to buy some flowers?\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538410907,
+  "fallbackIntent": false,
+  "events": []
+}

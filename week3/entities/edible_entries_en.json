@@ -1,0 +1,15 @@
+[
+  {
+    "value": "banana",
+    "synonyms": [
+      "banana"
+    ]
+  },
+  {
+    "value": "insect",
+    "synonyms": [
+      "insect",
+      "bugs"
+    ]
+  }
+]

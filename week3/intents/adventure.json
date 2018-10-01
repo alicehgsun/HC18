@@ -1,0 +1,57 @@
+{
+  "id": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "adventure-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7d760ad4-0f6b-4368-a935-9b22b5666239",
+          "required": false,
+          "dataType": "@adventure",
+          "name": "adventure",
+          "value": "$adventure",
+          "isList": false
+        },
+        {
+          "id": "d6ec07a7-271c-44ed-944e-fde554f44e49",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me the character\u0027s name!"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$name\u0027s $adventure began. As you started walking, your road led into two paths. Left or right?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538415439,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "22429472-96f3-4c8e-b648-5912199f46ee",
+  "parentId": "e61f35b2-8984-41e9-9a0f-824e69317b9e",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - left - edible",
+  "auto": true,
+  "contexts": [
+    "adventure-left-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "adventure.adventure-custom.adventure-left-custom",
+      "affectedContexts": [
+        {
+          "name": "adventure-left-edible-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "39e80eeb-fb98-41ca-b2b6-bf0c8350a433",
+          "required": false,
+          "dataType": "@edible",
+          "name": "edible",
+          "value": "$edible",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yum yum! The $edible tasted very good! #adventure-followup.name gained health level and proceeded walking."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "After walking for a while, you found a mysterious cave. Would you like to enter?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538412347,
+  "fallbackIntent": false,
+  "events": []
+}

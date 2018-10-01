@@ -1,0 +1,38 @@
+{
+  "id": "4d2f92d6-a7de-4272-8faa-a7ad7803cb9b",
+  "parentId": "22429472-96f3-4c8e-b648-5912199f46ee",
+  "rootParentId": "ec30d9ee-5f13-48ac-a5b2-2c0bfe81c6af",
+  "name": "adventure - left - edible - cave",
+  "auto": true,
+  "contexts": [
+    "adventure-left-edible-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You entered into the cave, and it is nice and cozy inside."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Day 1 of #adventure-followup.name\u0027s adventure is successfully ended."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538414829,
+  "fallbackIntent": false,
+  "events": []
+}
