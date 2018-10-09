@@ -7,3 +7,5 @@ Hello, Computer: Unconventional Uses of Voice Technology
 <br>Assignment 2 that takes voice input from a person to control in snake game.
 3. [Week 3: Dialogflow: Intents, Entities and Contexts](https://github.com/alicehgsun/HC18/tree/master/week3)
 <br>Assignment 3 that plays adventure game only through simple Q&A (need some revision).
+3. [Week 4: Dialogflow: fulfillment and Logic](https://github.com/alicehgsun/HC18/tree/master/week4)
+<br>Assignment 4 is a parody of [Don't Hug me I'm Scared](https://www.youtube.com/watch?v=9C_HReR_McQ).
