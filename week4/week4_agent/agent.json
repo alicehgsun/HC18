@@ -5,11 +5,11 @@
   "disableStackdriverLogs": true,
   "googleAssistant": {
     "googleAssistantCompatible": true,
-    "project": "week4-4659b",
+    "project": "week4-new",
     "welcomeIntentSignInRequired": false,
     "startIntents": [
       {
-        "intentId": "f0ad9bd6-4341-4ce0-8b2c-210848f26747",
+        "intentId": "4d288620-abb0-4ec6-b8e0-17abaeb8c024",
         "signInRequired": false
       }
     ],
@@ -27,7 +27,7 @@
   },
   "defaultTimezone": "America/New_York",
   "webhook": {
-    "url": "https://us-central1-week4-4659b.cloudfunctions.net/week4",
+    "url": "https://us-central1-week4-new.cloudfunctions.net/creativeColor",
     "headers": {
       "": ""
     },

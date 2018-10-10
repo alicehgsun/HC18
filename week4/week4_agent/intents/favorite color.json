@@ -1,31 +1,19 @@
 {
-  "id": "f0ad9bd6-4341-4ce0-8b2c-210848f26747",
+  "id": "4d288620-abb0-4ec6-b8e0-17abaeb8c024",
   "name": "favorite color",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "favoritecolor-followup",
-          "parameters": {},
-          "lifespan": 2
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [
         {
-          "id": "ff710ec7-3c27-4d7e-8e9c-312d17ab4e8e",
-          "required": true,
+          "id": "cbea849d-514e-4b49-96b4-3ce888255abe",
+          "required": false,
           "dataType": "@sys.color",
           "name": "color",
           "value": "$color",
-          "prompts": [
-            {
-              "lang": "en",
-              "value": "what\u0027s your favorite color?"
-            }
-          ],
           "isList": false
         }
       ],
@@ -43,7 +31,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1539057072,
+  "lastUpdate": 1539079509,
   "fallbackIntent": false,
   "events": []
 }

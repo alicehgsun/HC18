@@ -1,11 +1,7 @@
 [
   {
-    "id": "487f467f-8079-46da-9c52-eab48e2f8295",
+    "id": "ae0d143b-d20c-42ae-92da-5f621ca27528",
     "data": [
-      {
-        "text": "my favorite color is ",
-        "userDefined": false
-      },
       {
         "text": "green",
         "alias": "color",
@@ -15,27 +11,13 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1539051677
+    "updated": 1539079418
   },
   {
-    "id": "0b3d0e0a-2a5a-4358-b622-d40a8c90a37c",
+    "id": "34bdfb0b-17c3-45ae-a901-144e4c1ca1eb",
     "data": [
       {
-        "text": "pink",
-        "alias": "color",
-        "meta": "@sys.color",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1539051677
-  },
-  {
-    "id": "13e98056-54ad-4ce2-bfda-05efd37241bf",
-    "data": [
-      {
-        "text": "black",
+        "text": "Red",
         "alias": "color",
         "meta": "@sys.color",
         "userDefined": false
@@ -47,13 +29,13 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1539051677
+    "updated": 1539079418
   },
   {
-    "id": "634eeb1a-7248-43bd-9d2d-711d3d6aa466",
+    "id": "00ce2581-a93b-47d1-b514-e2f268945891",
     "data": [
       {
-        "text": "i love ",
+        "text": "mine is ",
         "userDefined": false
       },
       {
@@ -65,24 +47,42 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1539051677
+    "updated": 1539079418
   },
   {
-    "id": "e6f24769-b6ab-4939-b07f-79831e62ad74",
+    "id": "15e62f5d-203e-4910-98b2-2f72884e4404",
     "data": [
       {
-        "text": "purple",
-        "alias": "color",
-        "meta": "@sys.color",
+        "text": "my favorite color is ",
         "userDefined": false
       },
       {
-        "text": " is my favorite",
+        "text": "blue",
+        "alias": "color",
+        "meta": "@sys.color",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1539051677
+    "updated": 1539079418
+  },
+  {
+    "id": "1318e93a-4dc0-4774-8d48-7436992d5385",
+    "data": [
+      {
+        "text": "I love ",
+        "userDefined": false
+      },
+      {
+        "text": "pink",
+        "alias": "color",
+        "meta": "@sys.color",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539079418
   }
 ]
