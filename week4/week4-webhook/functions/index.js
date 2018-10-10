@@ -35,7 +35,7 @@ const dhmis = {
         url: 'http://www.alicehgsun.com/wp-content/uploads/2018/10/dhmis.gif',
         accessibilityText: 'Green is rejected by the Sketchbook, because it is not creative color.',
       },
-      display: 'BLACK',
+      display: 'WHITE',
 };
 
 
@@ -61,8 +61,9 @@ app.intent('favorite color', (conv, {color}) => {
     }
 
     conv.close(`<speak>${reply}<audio src="${audioSound}"></audio></speak>`, new BasicCard(dhmis));
+    // conv.close(`<speak>${reply}<audio src="${audioSound}"></audio></speak>`);
 
 });
 
 
-exports.week4 = functions.https.onRequest(app);
+exports.creativeColor = functions.https.onRequest(app);
