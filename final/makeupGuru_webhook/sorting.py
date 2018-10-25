@@ -13,5 +13,5 @@ with open('./functions/xkcd.json') as data_file:
     for item in color_data:
         colors[item["color"]] = hex_to_int(item["hex"])
 
-with open('sorted.json', 'w') as results_file:
+with open('./functions/sorted.json', 'w') as results_file:
     json.dump(colors, results_file)
